@@ -6,6 +6,7 @@ README.md: guessinggame.sh
         echo "* Author: Ngo Duy Vu\n" >> README.md
         echo "* Date: " >> README.md
         data -u >> README.md
+        echo "* Number of lines in guessinggame.sh: 26\n"
 
 clean:
         rm README.md
